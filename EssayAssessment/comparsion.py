@@ -51,7 +51,7 @@ def parse_student(file2):
         table = str.maketrans(dict.fromkeys(string.punctuation))
         new_line = line.translate(table) #remove all punctuation
         word = new_line.split()
-        resultword = [w for w in word if w.lower() not in word_list] # clear some words
+        resultword = [w for w in word if w.lower() not in word_list] # clear some words not need
         resultword = ' '.join(resultword)
         # print(resultword)
         # for line in resultword:
@@ -63,7 +63,6 @@ def parse_student(file2):
     return
 
 #compare word by word
-#or find the similarity of two documents
 def compare():
     global resultword
     word1 = resultword.split()
@@ -81,28 +80,6 @@ def compare():
     # for line in d.values():
     #     query_doc = [w.lower() for w in word_tokenize(line)]
         # query_doc_bow = dictionary.doc2bow(query_doc)
-
-
-
-
-
-# def clear():
-#     global answer_key
-#     for whole_line in answer_key:
-#         for line in whole_line:
-#             word = line.split()
-#             resultword = [w for w in word if w.lower() not in word_list ]
-#             resultword = ' '.join(resultword)
-#
-            # word2 = new_line.split()
-
-            # for line2 in word2:
-            #     resultword = [w for w in line2 if w.lower() not in word_list]
-            #     resultword = ''.join(resultword)
-
-            # print(new_line)
-
-
 
 
 if __name__ == '__main__':

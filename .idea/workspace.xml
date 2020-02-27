@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35672c6-c828-4669-87ce-af5b2f537548" name="Default Changelist" comment="" />
+    <list default="true" id="c35672c6-c828-4669-87ce-af5b2f537548" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/EssayAssessment/comparsion.py" beforeDir="false" afterPath="$PROJECT_DIR$/EssayAssessment/comparsion.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -134,7 +138,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EssayAssessment/comparsion.py</url>
-          <line>68</line>
+          <line>67</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
